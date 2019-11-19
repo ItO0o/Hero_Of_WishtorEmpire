@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -52,9 +54,6 @@
     <UnityVersion>2019.2.0f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -63,33 +62,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Quit.cs" />
+    <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\SetFloor.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/k17014kk/Unity/Hero_Of_WishtorEmpire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/x17090xx/Desktop/Hero Of Wishtorempire/Hero_Of_WishtorEmpire_UnityProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
