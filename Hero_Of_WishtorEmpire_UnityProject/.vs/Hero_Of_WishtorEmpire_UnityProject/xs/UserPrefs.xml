@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{18FCDF2E-67E3-299A-33B9-59CED4E571D9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SetFloor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SetFloor.cs" Line="10" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hero_Of_WishtorEmpire_UnityProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SetFloor.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0bf49e77-153d-4027-80f3-c52c433a1263" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
