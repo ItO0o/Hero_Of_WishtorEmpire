@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{18FCDF2E-67E3-299A-33B9-59CED4E571D9}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Quit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraMover.cs">
     <Files>
       <File FileName="Assets/Scripts/SetFloor.cs" Line="10" Column="9" />
       <File FileName="Assets/Scripts/SceneTransition.cs" Line="4" Column="35" />
-      <File FileName="Assets/Scripts/Quit.cs" Line="8" Column="12" />
+      <File FileName="Assets/Scripts/Quit.cs" Line="19" Column="24" />
+      <File FileName="Assets/Scripts/MoveHero.cs" Line="38" Column="58" />
+      <File FileName="Assets/Scripts/CameraMover.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
